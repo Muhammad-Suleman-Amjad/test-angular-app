@@ -50,4 +50,4 @@ jobs:
           aws_key_id: ${{secrets.AWS_ACCESS_KEY_ID}}
           aws_secret_access_key: ${{secrets.AWS_SECRET_ACCESS_KEY}}
           aws_bucket: test-angular-appp
-          source_dir: dist/angular6-httpclient/*
+          source_dir: dist/angular6-httpclient/
