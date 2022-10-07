@@ -44,7 +44,7 @@ jobs:
       
       - name: Deploy
         if: success()
-        run: aws s3 sync ./dist/test-angular-appp s3://test-angular-appp
+        run: aws s3 sync ./dist/angular6-httpclient/ s3://test-angular-appp
 
 
       #- name: Deploy
